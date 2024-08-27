@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import io from 'socket.io-client';
 
-const socket = io('http://localhost:5000');
+const socket = io('http://10.194.28.172:5001');
 
 export default function BlockchainConsensusUI() {
   const [nodeId, setNodeId] = useState(null);
